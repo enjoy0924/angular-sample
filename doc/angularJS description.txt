@@ -1,0 +1,4 @@
+1.controller, 实现模型和视图之间的数据传递，方法调用和改变模型等操作，类似于SpringMVC里面的@Controller
+2.service, 控制器之间不应该存在互相调用，对控制器里面共有的一些方法和代码段应该抽取出来成为一个service，类似于SpringMVC里面的@Service
+3.filter, 控制器不应该操作DOM或者做一些数据过滤，做数据过滤应该使用filter实现，如获取状态为良好的记录等
+4.directive, 如果一段html的代码重复出现在多个view上面，可以考虑将其提取成一个directive
